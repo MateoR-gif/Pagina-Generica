@@ -1,0 +1,101 @@
+  body{
+    margin: 0;
+    padding: 0;
+    background: #dde0de;
+  }
+
+  .theSection{
+    min-height: calc(100vh - 100px);
+  }
+
+  div.page{
+    display: table;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+/* ============================================================================ */
+
+  /* NAVIGATION BAR CSS */
+
+/* ============================================================================ */
+
+  nav {
+    display: inline-flex;
+    align-items: center;
+    background-color: #292c2f;
+    height: 100px;
+    width: 100%;
+  }
+
+  div.navContent{
+    display: inline-flex;
+    align-items: center;
+    width: 1500px;
+    margin: auto;
+  }
+
+  div.imgDiv {
+    width: 200px;
+    height: auto;
+  }
+
+  img#imgLogo{
+    width: 100%;
+    height: auto;
+  }
+
+  div.navButtons{
+    width: 100%;
+    display: flex;
+  }
+
+  div.navButtons a{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    color: white;
+    background: #4a4f55;
+    border-radius: 3px;
+  }
+  div.navButtons a:hover{
+    background: white;
+    color: black;
+  }
+
+/* ============================================================================ */
+
+  /* END OF NAVIGATION BAR CSS */
+
+/* ============================================================================ */
+
+/* ============================================================================ */
+
+  /* FOOTER BAR CSS */
+
+/* ============================================================================ */
+
+  footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #292c2f;
+    height: 100px;
+    width: 100%;
+  }
+
+  .footerContent{
+    width: 100%;
+    color: white;
+  }
+
+/* ============================================================================ */
+
+  /* END OF FOOTER BAR CSS */
+
+/* ============================================================================ */
